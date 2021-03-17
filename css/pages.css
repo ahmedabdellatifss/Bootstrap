@@ -1,0 +1,77 @@
+/* start breadcrumb */
+
+.breadcrumb-holder{
+    background-color:#F5F5F5;
+    
+}
+.breadcrumb{
+    padding:10px;
+    margin: 0
+}
+.about-us{
+    padding:70px 0
+}
+.about-us hr{
+    width:70%
+}
+.about-us h1{
+      font-family: 'Raleway', sans-serif;
+      letter-spacing: -3px;
+      font-size:42px
+}
+ .about-features{
+   padding: 0 0 70px    
+ }
+ 
+ .about-features h3{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -1px;
+ }
+ 
+ .about-ceo{
+    background-color:#EEE;
+    padding-top:40px;
+    }
+  .about-ceo p{
+    line-height:1.8
+  }
+ .about-ceo h2{
+    font-family: 'Raleway', sans-serif;
+ }
+ 
+ .about-ceo .btn-primary{
+    background-color:#333;
+    border-color: #333;
+    display: inline-block;
+    padding-bottom: 15px;
+    }
+    
+/*End about */
+
+/*Start FAQ*/
+
+.faq h1{
+    font-family: 'Raleway', sans-serif;
+     letter-spacing: -3px;
+     font-size: 60px 
+     }
+.faq h1 ~ hr {
+    width: 70px
+    }
+
+.faq {padding:40px 0}
+
+.faq-questions .panel-heading{ padding: 20px 15px}
+
+.faq-questions .panel-heading a:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color:#444 
+}
+
+.faq-questions .panel-heading a.collapsed:after{
+/* انت كده بتقوله ان البانل اللي معمولها كولابس يعني مفتوحه غير السهم وخليه لتحت*/
+    content:"\e080";
+    color:#999
+}

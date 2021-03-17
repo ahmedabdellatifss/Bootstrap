@@ -1,0 +1,19 @@
+@media (max-width:767px)
+
+ {
+    .navbar-inverse .navbar-nav>li>a
+    {
+        padding-top: 10px;  /*الينكات كانت كبيره في شاشات الموبيل فصغرنها بالمديا في الشاشات الصغيره*/
+        padding-bottom: 10px;
+    }
+    .subscribe .form-control
+    {
+        margin:20px auto; /*الزرار كان لازق في التكست اريا فصلحناه بالميديا كويري*/
+        width:400px
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse
+    {
+        max-height:none      /*دي غشان الغي الاسكرول اللي معمول في اللينكك لما استخدمه في الموبيل*/
+    }
+ }
